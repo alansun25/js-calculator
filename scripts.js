@@ -216,8 +216,5 @@ function limitDecimals() {
 
 function validInput() {
     const display = input.textContent.split(' ');
-    if (isNaN(display[display.length - 1]) || input.textContent.charAt(input.textContent.length - 1) === ' ') {
-        return false;
-    }
-    return true;
+    return !(isNaN(display[display.length - 1]) || input.textContent.charAt(input.textContent.length - 1) === ' ');
 }
