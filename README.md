@@ -1,5 +1,5 @@
-# Calculator
+# Star-powered Calculator
 
-A basic calculator
+A basic calculator built with JS, HTML, and CSS
 
 Alan Sun - JavaScript Practice
