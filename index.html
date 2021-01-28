@@ -7,8 +7,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
+        <title>Star-Powered Calculator | Alan Sun</title>
+        <meta name="description" content="A simple calculator made with JavaScript.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
@@ -23,8 +23,14 @@
                 <span class="input">0</span>
             </div>
             <div class="buttons">
-                <button class="clear"><span class="btn-text">Clear</span></button>
-                <button class="delete"><span class="btn-text">Delete</span></button>
+                <button class="clear"><span class="btn-text">AC</span></button>
+                <button class="delete"><span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-backspace" width="36" height="36" viewBox="1 -4 27 27" stroke-width="1.5" stroke="rgb(250, 247, 204)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M20 6a1 1 0 0 1 1 1v10a1 1 0 0 1 -1 1h-11l-5 -5a1.5 1.5 0 0 1 0 -2l5 -5z" />
+                        <path d="M12 10l4 4m0 -4l-4 4" />
+                    </svg>
+                </span></button>
             </div>
             <div class="buttons">
                 <button class="number"><span class="btn-text">7</span></button>
@@ -42,18 +48,18 @@
                 <button class="number"><span class="btn-text">1</span></button>
                 <button class="number"><span class="btn-text">2</span></button>
                 <button class="number"><span class="btn-text">3</span></button>
-                <button class="oper"><span class="btn-text">&minus;</span></button>
-            </div>
-            <div class="buttons">
-                <button class="number"><span class="btn-text">0</span></button>
-                <button class="number"><span class="btn-text">(</span></button>
-                <button class="number"><span class="btn-text">)</span></button>
-                <button class="oper"><span class="btn-text">&plus;</span></button>
+                <button class="oper"><span class="btn-text">-</span></button>
             </div>
             <div class="buttons">
                 <button class="radical"><span class="btn-text">&radic;</span></button>
-                <button class="squared"><span class="btn-text">x&#178;</span></button>
-                <button class="number"><span class="btn-text">.</span></button>
+                <button class="number"><span class="btn-text">0</span></button>
+                <button class="number decimal"><span class="btn-text">.</span></button>
+                <button class="oper"><span class="btn-text">&plus;</span></button>
+            </div>
+            <div class="buttons">
+                <button class="oper"><span class="btn-text">%</span></button>
+                <button class="expo"><span class="btn-text">x<sup style="font-size: small;">n</sup></span></button>
+                <button class="factorial"><span class="btn-text">!</span></button>
                 <button class="return"><span class="btn-text">&#9166;</span></button>
             </div>
         </div>
